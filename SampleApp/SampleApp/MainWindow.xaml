@@ -6,15 +6,9 @@
         xmlns:local="clr-namespace:SampleApp"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:igDP="http://infragistics.com/DataPresenter"
-        xmlns:rsIndigo="http://redsheeps.net/Themes/Indigo"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <rsIndigo:DataPresenter/>
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
         <!-- BG SELECTED/PRESSED/CHECKED  -->
         <!--<Style TargetType="{x:Type igDP:DataRecordCellArea}" BasedOn="{x:Static themes:DataPresenterGeneric.DataRecordCellArea}">
             <Setter Property="BackgroundAlternate" Value="#FF0000" />

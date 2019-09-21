@@ -2,11 +2,15 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:SampleApp"
+             xmlns:royalLight="clr-namespace:RedSheeps.MaterialDesignThemes.Infragistics.ResourceSets.RoyalLight;assembly=RedSheeps.MaterialDesignThemes.Infragistics"
              StartupUri="MainWindow.xaml" Startup="Application_Startup">
     <Application.Resources>
         <ResourceDictionary>
             <!-- BG SELECTED/PRESSED/CHECKED  -->
             <ResourceDictionary.MergedDictionaries>
+                <royalLight:DataPresenters/>
+                <royalLight:Primitives/>
+                <royalLight:Editors/>
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/materialdesigncolor.indigo.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/materialdesigncolor.indigo.xaml" />

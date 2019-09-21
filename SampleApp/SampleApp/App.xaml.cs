@@ -16,8 +16,6 @@ namespace SampleApp
     {
         private void Application_Startup(object sender, StartupEventArgs e)
         {
-            ThemeManager.ApplicationTheme = new RoyalLightTheme();
-
         }
     }
 }
