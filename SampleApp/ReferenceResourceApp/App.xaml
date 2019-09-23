@@ -1,0 +1,31 @@
+﻿<Application x:Class="ReferenceResourceApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ReferenceResourceApp"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--<ResourceDictionary Source="Themes/RoyalLight/RoyalLight.xamDataPresenter.xaml"/>
+                <ResourceDictionary Source="Themes/RoyalLight/RoyalLight.xamEditors.xaml"/>-->
+
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/materialdesigncolor.deeppurple.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/materialdesigncolor.deeppurple.xaml" />
+
+                <!-- However, however you can make it simpler by just using one of the built-in themes. This is functionally identical to what is above.-->
+                <!--<materialDesign:BundledTheme BaseTheme="Light" PrimaryColor="DeepPurple" SecondaryColor="Lime" />-->
+
+                <!-- If you would prefer to use your own colors there is an option for that as well -->
+                <!--<materialDesign:CustomColorTheme BaseTheme="Light" Primary="Aqua" Secondary="DarkGreen" />-->
+
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/Materialdesigntheme.Button.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/Materialdesigntheme.TextBox.xaml" />
+
+                <ResourceDictionary Source="Styles/Windows/PrimitivesRoyalLight.xaml"/>
+                <ResourceDictionary Source="Styles/DataPresenter/DataPresenterRoyalLight.xaml"/>
+                <ResourceDictionary Source="Styles/Editors/EditorsRoyalLight.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

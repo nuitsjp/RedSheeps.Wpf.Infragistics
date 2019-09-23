@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "SampleApp\Samp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSheeps.MaterialDesignThemes.Infragistics", "RedSheeps.MaterialDesignThemes.Infragistics\RedSheeps.MaterialDesignThemes.Infragistics.csproj", "{A6AA18A4-97B2-4BCE-B251-5AEB7F970FE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OriginalThemeManagerSample", "OriginalThemeManagerSample\OriginalThemeManagerSample.csproj", "{AFC7E548-F287-433B-83E9-1C2B70A32544}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A6AA18A4-97B2-4BCE-B251-5AEB7F970FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6AA18A4-97B2-4BCE-B251-5AEB7F970FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6AA18A4-97B2-4BCE-B251-5AEB7F970FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC7E548-F287-433B-83E9-1C2B70A32544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC7E548-F287-433B-83E9-1C2B70A32544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC7E548-F287-433B-83E9-1C2B70A32544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC7E548-F287-433B-83E9-1C2B70A32544}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
